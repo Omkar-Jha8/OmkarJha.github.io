@@ -1,0 +1,361 @@
+.img-responsive{
+    max-width: 100%;
+}
+.postcode{
+    text-align: center;
+    
+}
+body{
+    font-family: 'Acme', sans-serif;
+}
+.name{
+    text-align: left;
+    margin-top: 0%;
+    font: outline;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+
+
+}
+.first{
+    text-align: center;
+}
+.first{
+    background: url(sky.webp) no-repeat;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+
+}
+.second{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.second h1{
+font-size: 3rem;
+padding: -3rem;
+text-align: center;
+color: black;
+}
+.second p{
+font-size: 1ren;
+text-align: center;
+padding: 0%;
+margin: 0%;
+color: black;
+
+}
+.form_code .postcode{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline:none;
+    background-color:aqua;
+}
+.second .para{
+    padding: 2rem;
+    height: 1rem;
+    margin-top: -2rem;
+    
+}
+
+.form_code button{
+    width: 40%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(137, 248, 243);
+    border: black;
+    outline: none;
+    margin-top: -1rem;
+
+
+}
+
+.form_code{
+    text-align: center;
+}
+.para{
+    text-align: top;
+}
+.animal{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+    
+}
+.animal_card{
+    float: left;
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.home{
+        
+        /* border-radius: .4rem; */
+        background-color: rgb(2, 2, 2);
+        border: black;
+        outline: none;
+        margin-right: 4rem;
+        margin-bottom: -5rem;
+        color: rgb(255, 255, 255);
+        margin-left: -1rem;
+        text-decoration-line:none ;
+        padding: .5rem;
+   
+    
+}
+.aboutus{
+    /* border-radius: .4rem; */
+    background-color: rgb(0, 0, 0);
+    border: black;
+    outline: none;
+    margin-right: 4rem;
+    margin-bottom: -5rem;
+    color: rgb(255, 255, 255);
+    margin-left: -1rem;
+    text-decoration-line:none ;
+    padding: .5rem;
+    
+}
+
+.peng-class{
+    height:20rem;
+    margin-left: 0rem;
+    margin-right: .37rem;
+    float: left;
+    justify-content: center;
+
+}
+.list{
+    font-size:5vh;
+    
+}
+.first-option{
+    border:none;
+}
+.button.om:hover{
+background-color: aqua;
+}
+.penguinesbody{
+    border-style: square;
+
+}
+.prince{
+    background-color:wheat;
+    background-size: cover;
+    position: relative;
+}
+.koala-peng{
+    
+    height:20rem;
+    margin-left: .4rem;
+    margin-right: .3rem;
+    /* margin-bottom: -10rem; */
+    float: left;
+    margin-top: 0%;
+   
+    
+    
+    
+}
+body{
+    background-color: wheat;
+    background-size: cover;
+}
+.ch4{
+    font-size: 3vh;
+}
+.home:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 1rem;
+
+}
+.contact-us{
+    /* border-radius: .4rem; */
+    background-color: rgb(2, 2, 2);
+    outline: none;
+    margin-right: 4rem;
+    margin-bottom: -5rem;
+    color: rgb(255, 255, 255);
+    margin-left: -1rem;
+    text-decoration-line:none ;
+    padding: .5rem;
+
+    
+
+}
+.aboutus:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 1rem;
+}
+.contact-us:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 1rem;
+
+}
+
+.about{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.contact{
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    
+}
+.jelly{
+    height:20rem;
+    margin-left: 1.2rem;
+    margin-right: .3rem;
+    float: left;
+    margin-top: .5rem;
+    width: 31vw;
+}
+.jelly-head{
+    font-size: 2rem;
+    margin-top: .7vh;
+}
+.lion{
+    height:20rem;
+    margin-left: 1.2rem;
+    margin-right: .3rem;
+    float: left;
+    margin-top: .5rem;
+    width: 31vw;
+}
+.back{
+    text-decoration-line: none;
+    border: none;
+    color: black;
+    margin-left: 1rem;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    margin-top: 2%;
+
+}
+.back:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 2rem;
+    
+}
+@media screen and (max-width:700px){
+    .animal_card{
+        width: 100%;
+        float: none;
+        align-items: center;
+        margin-left: -10px;
+        text-align: center;
+
+    }
+    .home{
+        width:50%;
+        float: none;
+        padding:0rem ;
+        margin-bottom: 1rem;
+        display: inline-block;
+        align-content: center;
+        image-rendering: auto;
+        margin-left: 1.8rem;
+
+        
+    }
+    .aboutus{
+        width:50%;
+        float: none;
+        padding:0rem ;
+        margin-bottom: 1rem;
+        display: inline-block;
+        margin-left: 1.8rem;
+        
+
+    }
+    .contact-us{
+        width:50%;
+        float: none;
+        padding:0rem ;
+        margin-bottom: -1rem;
+        display: inline-block;
+        margin-top: auto;
+        text-align: center;
+        margin-left: 1.8rem;
+
+
+    }
+    .coming{
+        margin-right: -31rem;
+    }
+    .container img{
+        margin-bottom: 5px;  
+    }
+    .jelly{
+        float: none;
+        width: 100vw;
+        display: block;
+        margin-left: -4px;
+        
+    }
+    .jelly-p{
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .lion{
+        float: none;
+        width: 100vw;
+        display: block;
+        margin-left: -4px;
+    }
+
+}
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin-top: 100%;
+}
+.coming{
+    text-align: center;
+    margin-left: -29rem;
+    animation-name: coming;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+
+    
+
+}
+@keyframes coming{
+    from{color: black;background-color: white;}
+    to{color:rgb(255, 0, 0) ;background-color:aqua;border-radius: 4rem;}
+}
+    
+
+
+
+
+
+
+
+
+
+
